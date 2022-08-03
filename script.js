@@ -1,5 +1,11 @@
- var a = "placa de captura";
+ //BOOLEAN
+ //Nul
+ //Undefined
+ //Number
+ //Srtringer
+ 
+ var a = null
 
- var b = "HD"
+ 
 
 console.log(a);
