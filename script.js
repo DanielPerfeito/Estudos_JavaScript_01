@@ -1,11 +1,12 @@
- //BOOLEAN
- //Nul
- //Undefined
- //Number
- //Srtringer
- 
- var a = null
+// + ADIÇÃO
+// - SUBTRAÇÃO
+// * MULTIPLICAÇÃO
+// / DIVISÃO
+// % MÓDULO
+// ++ INCREMENTO
+// -- DECREMENTO
 
- 
+var a = 10;
 
-console.log(a);
+console.log()
+ 
