@@ -1,10 +1,11 @@
 
+// Usamos parseInt() para transformar strings em números inteiros.
+// Usamos parseFloat() para transformar strings em números decimais.
 
-var numero = "8";
-var str ="valor qualquer ";
+var a = "7";
 
-str += numero
-console.log(numero);
+var b = "3.5";
 
-console.log(str);
- 
+var c = parseInt(a) + parseFloat(b);
+
+console.log(c)
