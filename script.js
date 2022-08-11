@@ -1,14 +1,10 @@
-// && e
-// || ou
-// Negativo
 
 
+var numero = "8";
+var str ="valor qualquer ";
 
-var a = false;
+str += numero
+console.log(numero);
 
-var b = false;
-
-var c = a && b;
-
-console.log(c);
+console.log(str);
  
