@@ -1,16 +1,14 @@
-// == igual a
-// === valor igual e igual
-// != não é igual
-// !== não igual ou não igual
-// > maior que
-// < menor de
-// >= maior que ou igual a
-// <= menor que ou igual a
+// && e
+// || ou
+// Negativo
 
 
-var a = 2
 
-var b = 2
+var a = false;
 
-console.log( a>b)
+var b = false;
+
+var c = a && b;
+
+console.log(c);
  
