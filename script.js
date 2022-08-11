@@ -1,11 +1,4 @@
 
-// Usamos parseInt() para transformar strings em números inteiros.
-// Usamos parseFloat() para transformar strings em números decimais.
+var nome = prompt("Qual o seu nome?")
 
-var a = "7";
-
-var b = "3.5";
-
-var c = parseInt(a) + parseFloat(b);
-
-console.log(c)
+alert("Bom Dia, " + nome + "!");
