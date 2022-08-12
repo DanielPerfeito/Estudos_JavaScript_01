@@ -1,4 +1,16 @@
+var idade = 45;
 
-var nome = prompt("Qual o seu nome?")
+if (idade >= 35){
+    console.log("Pode");
+    console.log("Qual é o seu pedido");
+}
 
-alert("Bom Dia, " + nome + "!");
+else if (idade >= 18){
+    console.log("Pode");
+    console.log("Mostre a sua identidade");''
+}
+
+else {
+    console.log("Não pode");
+    console.log("volte futuramente");
+}
