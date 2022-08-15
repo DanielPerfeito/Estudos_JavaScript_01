@@ -1,16 +1,7 @@
-var idade = 45;
+var idade = 7;
 
-if (idade >= 35){
-    console.log("Pode");
-    console.log("Qual é o seu pedido");
-}
+// idade >= 18 ? console.log("Pode"): console.log("Não pode");
 
-else if (idade >= 18){
-    console.log("Pode");
-    console.log("Mostre a sua identidade");''
-}
+var pode = idade >= 18 ? true : false;
 
-else {
-    console.log("Não pode");
-    console.log("volte futuramente");
-}
+console.log(pode)
