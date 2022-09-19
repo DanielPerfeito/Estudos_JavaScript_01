@@ -1,11 +1,13 @@
-// Estrutura de repetição FOR.
+// Estrutura de repetição WHILE.
 
-var numero = 10;
+var numero = 5;
 
-for(var vez = 0; vez <= numero; vez++){
-
-console.log("Executando o FOR pela " + vez + " vez.");
-
+while (numero < 10) {
+    
+    console.log("Número: " + numero);
+    numero++
 }
 
-console.log("Acabou!");
+console.log("Acabou")
+
+
