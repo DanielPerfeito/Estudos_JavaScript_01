@@ -20,12 +20,12 @@ if (media >= 7) {
 
 else if (media >= 5 && media < 7) {
     
-    conceito = "Regular"
+    conceito = "Regular";
 }
 
 else {
 
-    conceito = "Ruim"
+    conceito = "Ruim";
 }
 
 // Estrutura condicional Switch
@@ -36,14 +36,14 @@ switch (conceito) {
         break
 
     case "Regular":
-        console.log("Você passou com " + media + ", mas pode melhorar.")
+        console.log("Você passou com " + media + ", mas pode melhorar.");
         break
 
     case "Ruim":
-        console.log("Sua média " + media + " não foi sufissiente.")
+        console.log("Sua média " + media + " não foi sufissiente.");
         break
 
-    default: console.log("Houve algum erro!")
+    default: console.log("Houve algum erro!");
         break
 }
 
