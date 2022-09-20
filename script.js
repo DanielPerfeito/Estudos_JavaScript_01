@@ -1,13 +1,7 @@
-// Estrutura de repetição WHILE.
+// Arrays.
 
-var numero = 5;
+var alunos =["Mateus", "Marcos", "Lucas", "Jõão", "Mario", "luiz", "Jacó", "Abgail", "Zoe"]
 
-while (numero < 10) {
-    
-    console.log("Número: " + numero);
-    numero++
+for (var aluno of alunos){
+    console.log(aluno)
 }
-
-console.log("Acabou")
-
-
