@@ -1,7 +1,17 @@
-// Arrays.
+// FUNÇÕES - PARTE 1
 
-var alunos =["Mateus", "Marcos", "Lucas", "Jõão", "Mario", "luiz", "Jacó", "Abgail", "Zoe"]
+// Declarando funções
+function media(n1,n2){
 
-for (var aluno of alunos){
-    console.log(aluno)
+    var nota1 = n1;
+    var nota2 = n2;
+    var media = (nota1 + nota2) / 2;
+
+    return media;
 }
+
+//Chamando as funções
+var resultado1 = media(6,7);
+var resultado2 = media(8,7);
+
+console.log(resultado1 + " e " + resultado2)
