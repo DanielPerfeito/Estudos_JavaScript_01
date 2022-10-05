@@ -1,36 +1,31 @@
-// Juntando tudo até aqui
+// OBJETOS
 
-// Enunciado: Fazer um lista com a seguinte ordem: Nome do aluno - nota 1 - nota 2 - media - aprovado / reprovado.
+//=========================================
 
-var nomes = ["Ana", "Daniel", "Pedro"];
-var notasA = [7.0, 6.5, 9.5];
-var notasB = [8.0, 7.0, 8.5];
+//Como declarar um objeto
 
-function media(n1, n2) {
+var aluno = { nome: "Daniel", notas:[7.5,5.3]}
 
-    return (n1 + n2) / 2
-}
+console.log(aluno)
 
-function passou(media){
+//Ou
 
-    var resultado = "Reprovado";
+var aluno2 = new Object()
 
-    if (media > 7){
-        resultado = "Aprovado"
-    };
+aluno2.nome = "Ana"
+aluno2.notas = [10.0, 9.5]
 
-    return resultado;
+//=========================================
 
-}
+// Como adicionar propriedades a um objeto
 
+aluno.sobrenome = "Perfeito"
 
-for (var index in nomes) {
+//Ou
 
-    var nota1 = notasA[index];
-    var nota2 = notasB[index];
+aluno2["sobrenome"] = "Paes"
 
-    var m = media(nota1, nota2);
+//=========================================
 
-    console.log(nomes[index] + " - " + nota1 + " - " + nota2 + " - " + m + " - " + passou(m));
-}
-
+console.log(aluno)
+console.log(aluno2)
