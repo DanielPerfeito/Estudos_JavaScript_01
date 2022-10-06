@@ -1,31 +1,31 @@
-// OBJETOS
+// OBJETOS - Metodos
+
+//O métodos de um objeto é basicamente uma função dentro de um objéto.
 
 //=========================================
 
-//Como declarar um objeto
+function calcMedia() {
+    return (this.notas[0] + this.notas[1]) / 2;
+}
 
-var aluno = { nome: "Daniel", notas:[7.5,5.3]}
+var aluno = {
+    nome: "Daniel", 
+    notas: [10, 6],
 
-console.log(aluno)
+    media: calcMedia
 
-//Ou
+}
 
-var aluno2 = new Object()
+var aluno1 = {
+    nome: 'João', 
+    notas: [8, 8],
 
-aluno2.nome = "Ana"
-aluno2.notas = [10.0, 9.5]
+    media: calcMedia
 
-//=========================================
+}
 
-// Como adicionar propriedades a um objeto
+console.log(aluno.nome);
+console.log(aluno.media());
 
-aluno.sobrenome = "Perfeito"
-
-//Ou
-
-aluno2["sobrenome"] = "Paes"
-
-//=========================================
-
-console.log(aluno)
-console.log(aluno2)
+console.log(aluno1.nome);
+console.log(aluno1.media());
