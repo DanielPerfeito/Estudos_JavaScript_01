@@ -1,0 +1,10 @@
+//OPERAÇÕES E ATRIBUIÇÕES:
+
+
+// + ADIÇÃO
+// - SUBTRAÇÃO
+// * MULTIPLICAÇÃO
+// / DIVISÃO
+// % MÓDULO
+// ++ INCREMENTO
+// -- DECREMENTO

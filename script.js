@@ -4,28 +4,36 @@
 
 //=========================================
 
-function calcMedia() {
+var calcMedia = function () {
     return (this.notas[0] + this.notas[1]) / 2;
 }
 
-var aluno = {
-    nome: "Daniel", 
-    notas: [10, 6],
+var turma = [
+    {
+        nome: "Daniel",
+        notas: [9, 7.5],
+        media: calcMedia
+    },
 
-    media: calcMedia
+    {
+        nome: "João",
+        notas: [6, 8],
+        media: calcMedia
+    },
 
-}
+    {
+        nome: "Maria",
+        notas: [7, 9],
+        media: calcMedia
+    },
 
-var aluno1 = {
-    nome: 'João', 
-    notas: [8, 8],
+    {
+        nome: "Andressa",
+        notas: [10, 5],
+        media: calcMedia
+    },
+]
 
-    media: calcMedia
-
-}
-
-console.log(aluno.nome);
+var aluno = turma[0];
+console.log(aluno);
 console.log(aluno.media());
-
-console.log(aluno1.nome);
-console.log(aluno1.media());
