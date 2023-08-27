@@ -2,10 +2,13 @@
 
 var numero = 10;
 
-for(var vez = 0; vez <= numero; vez++){
+for(var vez = 0; vez <= numero; vez++)/*Traduzindo a aestrutura FOR = PARA (inicialização; condição; finalização){FACA}*/{
 
-console.log("Executando o FOR pela " + vez + " vez.");
+alert("Executando o FOR pela " + vez + " vez.");
 
 }
 
-console.log("Acabou!");
+alert("Acabou!");
+
+
+// A estrutura de repetição FOR é indicada para quando ja sabemos o numero exato de vezes em que um programa deverá se repetir.
