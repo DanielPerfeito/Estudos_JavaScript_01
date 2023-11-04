@@ -9,6 +9,9 @@ var subtracao = 10 - 4; // O resultado é 6
 // Multiplicação (*)
 var multiplicacao = 6 * 7; // O resultado é 42
 
+//Exponênciação (**)
+var exponenciacao = 2 ** 3; // O resultado é 8
+
 // Divisão (/)
 var divisao = 15 / 3; // O resultado é 5
 
